@@ -1,0 +1,3 @@
+# Every change is security-sensitive, because these workflows run in every repository.
+
+* @drewark/security
