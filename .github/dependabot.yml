@@ -10,3 +10,14 @@ updates:
     commit-message:
       prefix: ci
       include: scope
+
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: daily
+    cooldown:
+      default-days: 7
+    labels: []
+    commit-message:
+      prefix: build
+      include: scope
